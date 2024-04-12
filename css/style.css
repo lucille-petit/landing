@@ -1,0 +1,57 @@
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card-white.css");
+@import url("components/list-inline.css");
+@import url("components/btn-blue.css");
+
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+	.container {
+		width: 460px;
+	}
+}
+
+body {
+	font-size: 18px;
+	margin: 0px;
+	font-family: Quicksand;
+}
+
+h1 {
+	color: floralwhite;
+    font-family: Playfair Display, serif;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    font-size: 45px;
+}
+
+h2 {
+	font-family: PT Serif;
+}
+
+
+h3 {
+	font-family: PT Serif;
+	color: #003C43;
+}
+
+h4 {
+	color: #135D66;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding: 40px;
+	margin-left: 50px;
+}
+
+
